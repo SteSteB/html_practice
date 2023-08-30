@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>    
+    <!-- insert form here -->
+    <fieldset>
+        <ul>
+        <li><legend>Your Details</legend></li>
+        <li><label for="FN">First Name:</label>
+        <input type="text" name="First" id="FN" autofocus></li>
+        <li><label for="SN">Surname:</label>
+        <input type="text" name="Surname" id="SN"></li>
+        <li><label for="Role">Position:</label>
+        <input type="text" name="Position" id="Role"></li>
+        <li><label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="you@domain.com"></li>
+        <li><label for="email">Phone:</label>
+            <input type="tel" name="Phone" id="phone" placeholder="+447500000000"></li>
+
+    </ul>
+    </fieldset>
+
+    <fieldset>
+      
+        <ul>
+            <li><legend>Course Details</legend></li>
+            <li><label for="course">Course:</label>
+                <select name="country" id="countryInput">
+                    <option value="JS">Programming with JavaScript</option>
+                    <option value="HTML" selected>DevelopingWeb Applications using HTML5</option>
+                    <option value="RW">Developing Responsive Websites</option>
+                    <option value="JQ">Leveraging the Power of JQuery</option>
+                </select>
+            </li>
+            <li><label for="nod">Number of Delegates:</label>
+            <input type="number" name="NumDel" id="nod"></li>
+            <li><label for="date">Date:</label>
+            <input type="date" name="" id="date"></li>
+            
+    
+        </ul>
+
+        
+        
+            </fieldset>
+    
+
+    <fieldset>
+        <button type="submit">Submit</button>
+    </fieldset>
+
+
+    
+</body>
+</html>
