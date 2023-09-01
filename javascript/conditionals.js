@@ -8,3 +8,4 @@ if (age <= 17) {
 
 else {console.log("Out of Range")
 }
+
