@@ -33,7 +33,7 @@ const movies = [
 // console.log("Value of movies:", movies);
 // console.log("Value of movie:", movie);
 
-// findMovie(movie);
+// findMovie(movie);..
 
 
 // Part 2 = Create a function to return a movie object
